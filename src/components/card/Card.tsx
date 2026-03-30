@@ -9,7 +9,12 @@ type Props = {
 
 export const Card: React.FC<Props> = ({ value, isFlipped, isMatched, onClick }) => {
   return (
-    <div className={`card w-20 h-20 ${isFlipped || isMatched ? 'flipped' : ''}`} onClick={onClick}>
+    <div 
+      role="button"
+      data-testid="card" 
+      className={`card w-20 h-20 ${isFlipped || isMatched ? 'flipped' : ''}`} 
+      onClick={onClick}
+    >
       <div className="card-inner">
         {/* Front */}
         <div className="card-face card-front text-lg font-semibold text-gray-800">
