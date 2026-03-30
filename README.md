@@ -7,7 +7,7 @@ The game challenges users to match pairs of cards in a 4x4 grid with smooth inte
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/keerthanamenon14/MemoryGame.git
 cd memory-game
 
 2. Install dependencies
